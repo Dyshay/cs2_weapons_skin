@@ -83,7 +83,6 @@ jobs:
         with:
           repository: alliedmodders/hl2sdk
           ref: cs2
-          path: hl2sdk-cs2
 
       - name: 📥 Checkout Metamod:Source
         uses: actions/checkout@v4
