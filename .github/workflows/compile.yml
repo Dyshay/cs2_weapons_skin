@@ -82,7 +82,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: zer0k-z/hl2sdk
-          ref: cs2
+          ref: fec44c3e820c8a4c428faaf5bf1698e7b8727888
           path: hl2sdk-cs2
 
       - name: 📥 Checkout Metamod:Source
