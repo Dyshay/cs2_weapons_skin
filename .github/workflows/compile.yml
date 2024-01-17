@@ -128,7 +128,6 @@ jobs:
       - name: Package
         run: |
           7z a -mx9 linux.zip ./Linux/*
-          7z a -mx9 windows.zip ./Windows/*
       - name: Release
         uses: svenstaro/upload-release-action@v2
         with:
